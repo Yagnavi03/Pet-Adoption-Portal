@@ -1,0 +1,70 @@
+package com.petadoption.dto;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+public class PetDTO {
+    private String petId;
+    private String name;
+    private String category;
+    private String breed;
+    private int age;
+    private String gender;
+    private String size;
+    private String color;
+    private String location;
+    private String healthStatus;
+    private String vaccinations;
+    private String description;
+    private String adoptionStatus;
+    private String imageUrl;
+    private List<String> imageUrls;
+    private boolean neutered;
+    private String temperament;
+    private String specialNeeds;
+    private double weight;
+    private LocalDateTime addedDate;
+
+    public PetDTO() {}
+
+    public String getPetId() { return petId; }
+    public void setPetId(String petId) { this.petId = petId; }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+    public String getCategory() { return category; }
+    public void setCategory(String category) { this.category = category; }
+    public String getBreed() { return breed; }
+    public void setBreed(String breed) { this.breed = breed; }
+    public int getAge() { return age; }
+    public void setAge(int age) { this.age = age; }
+    public String getGender() { return gender; }
+    public void setGender(String gender) { this.gender = gender; }
+    public String getSize() { return size; }
+    public void setSize(String size) { this.size = size; }
+    public String getColor() { return color; }
+    public void setColor(String color) { this.color = color; }
+    public String getLocation() { return location; }
+    public void setLocation(String location) { this.location = location; }
+    public String getHealthStatus() { return healthStatus; }
+    public void setHealthStatus(String healthStatus) { this.healthStatus = healthStatus; }
+    public String getVaccinations() { return vaccinations; }
+    public void setVaccinations(String vaccinations) { this.vaccinations = vaccinations; }
+    public String getDescription() { return description; }
+    public void setDescription(String description) { this.description = description; }
+    public String getAdoptionStatus() { return adoptionStatus; }
+    public void setAdoptionStatus(String adoptionStatus) { this.adoptionStatus = adoptionStatus; }
+    public String getImageUrl() { return imageUrl; }
+    public void setImageUrl(String imageUrl) { this.imageUrl = imageUrl; }
+    public List<String> getImageUrls() { return imageUrls; }
+    public void setImageUrls(List<String> imageUrls) { this.imageUrls = imageUrls; }
+    public boolean isNeutered() { return neutered; }
+    public void setNeutered(boolean neutered) { this.neutered = neutered; }
+    public String getTemperament() { return temperament; }
+    public void setTemperament(String temperament) { this.temperament = temperament; }
+    public String getSpecialNeeds() { return specialNeeds; }
+    public void setSpecialNeeds(String specialNeeds) { this.specialNeeds = specialNeeds; }
+    public double getWeight() { return weight; }
+    public void setWeight(double weight) { this.weight = weight; }
+    public LocalDateTime getAddedDate() { return addedDate; }
+    public void setAddedDate(LocalDateTime addedDate) { this.addedDate = addedDate; }
+}
